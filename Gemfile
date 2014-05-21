@@ -11,6 +11,9 @@ gem 'sprockets','2.11.0'
 # state-of-the-art hash function to irreversibly transform the password to make the password hash
 gem 'bcrypt-ruby', '3.1.2'
 
+# Makes sample users with semi-realistic names and email addresses
+gem 'faker', '1.1.2'
+
 # Use sqlite3 as the database for Active Record 
 gem 'sqlite3', '1.3.8', :groups => [:development, :test]
 gem 'rspec-rails', '2.13.1', :groups => [:development, :test]
