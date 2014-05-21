@@ -14,6 +14,10 @@ gem 'bcrypt-ruby', '3.1.2'
 # Makes sample users with semi-realistic names and email addresses
 gem 'faker', '1.1.2'
 
+# Paginate users, so that a limited number show up on a page at any one time
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 # Use sqlite3 as the database for Active Record 
 gem 'sqlite3', '1.3.8', :groups => [:development, :test]
 gem 'rspec-rails', '2.13.1', :groups => [:development, :test]
