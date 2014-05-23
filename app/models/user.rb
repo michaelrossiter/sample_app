@@ -29,8 +29,7 @@ class User < ActiveRecord::Base
 
 # Feed methods
   def feed
-    # This is preliminary, we will revisit
-    Micropost.where("user_id = ?", id)
+    Micropost.from_users_followed_by(self)
   end
 
 # Relationship methods
